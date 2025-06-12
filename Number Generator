@@ -1,0 +1,35 @@
+import string
+import random
+import time
+
+all_characters = string.digits
+
+length = int(input("enter the length of the number: "))
+
+
+password = '' .join(random.choices(all_characters, k=length))
+
+print ("Your number is:", password)
+
+time.sleep(5)
+
+all_characters = string.digits
+
+length = int(input("enter the length of the number: "))
+
+
+password = '' .join(random.choices(all_characters, k=length))
+
+print ("Your number is:", password)
+
+time.sleep(5)
+
+all_characters = string.digits
+
+length = int(input("enter the length of the number: "))
+
+
+password = '' .join(random.choices(all_characters, k=length))
+
+print ("number is:", password)
+
